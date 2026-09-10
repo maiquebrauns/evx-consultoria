@@ -2,11 +2,8 @@
   "name": "evx-consultoria",
   "version": "1.0.0",
   "description": "Website institucional moderno, premium e de alta performance para a Evx Consultoria",
-  "main": "index.html",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "preview": "node server.js"
+    "dev": "node local-server.js"
   },
   "keywords": [
     "consultoria",

@@ -32,6 +32,6 @@ start "" http://localhost:3000/celular
 echo.
 echo Servidor em execucao! Mantenha esta janela aberta enquanto navega.
 echo.
-"%NODE_CMD%" server.js
+"%NODE_CMD%" local-server.js
 
 pause
