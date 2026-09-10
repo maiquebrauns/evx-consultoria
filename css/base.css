@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    BASE & RESET - EVX CONSULTORIA
    ========================================================================== */
 *, *::before, *::after {
@@ -138,7 +138,7 @@ p {
 }
 
 .section-header.text-center {
-  max-width: 780px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -150,7 +150,7 @@ p {
 
 .section-header p {
   font-size: clamp(1rem, 1.2vw, 1.2rem);
-  max-width: 680px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
