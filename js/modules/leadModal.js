@@ -14,6 +14,8 @@ export function initLeadModal() {
 
   function openModal() {
     modal.showModal();
+    const inner = modal.querySelector('.modal-dialog-inner');
+    if (inner) inner.scrollTop = 0;
     document.body.style.overflow = 'hidden';
     if (formState && successState) {
       formState.style.display = 'block';

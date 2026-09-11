@@ -1,4 +1,4 @@
-﻿import { casesData } from '../data/cases.js';
+import { casesData } from '../data/cases.js';
 
 /**
  * Case Modal Module: Visualização profunda e imersiva de cases de sucesso
@@ -81,6 +81,8 @@ export function initCaseModal() {
       if (caseItem) {
         renderCaseDetails(caseItem);
         modal.showModal();
+        const inner = modal.querySelector('.modal-dialog-inner');
+        if (inner) inner.scrollTop = 0;
         document.body.style.overflow = 'hidden';
       }
     }
